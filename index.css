@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.bug-form input,
+.bug-form textarea,
+.bug-form select {
+  width: 90%;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.bug {
+  background: #e8e8e8;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  position: relative;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  right: 10px;
+top: 10px;
+}
+textarea {
+  resize: none;
+height: 100px;
+}
+/* textarea { resize: vertical; } */
